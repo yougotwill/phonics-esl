@@ -66,3 +66,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## References
+
+- [React + Tailwind Setup](https://medium.com/quick-code/tailwind-react-typescript-a0317155e5ee)

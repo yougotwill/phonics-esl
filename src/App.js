@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles/App.scss';
 import phonics from './resources/phonics.js';
 
 import Hero from './components/Hero/Hero.js';
