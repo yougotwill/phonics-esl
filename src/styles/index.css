@@ -13259,6 +13259,46 @@ video {
           transition-duration: 1000ms;
 }
 
+.tooltip .tooltip-text {
+  visibility: hidden;
+}
+
+.tooltip .tooltip-text p {
+  background: black;
+  color: white;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
+.tooltip .tooltip-text .tooltip-triangle {
+  height: 0;
+  width: 0;
+  border-top: 12px solid black;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+}
+
+.dark {
+  background: #1a202c; /* bg-gray-900 */
+  color: white;
+}
+
+.dark .card {
+  background: #ed8936; /* bg-orange-500 */
+  color: black;
+}
+
+.dark .tooltip .tooltip-text p {
+  background: white;
+  color: black;
+}
+
+.dark .tooltip .tooltip-text .tooltip-triangle {
+  border-top: 12px solid white;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;

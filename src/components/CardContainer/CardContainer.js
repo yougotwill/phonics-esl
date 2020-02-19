@@ -3,11 +3,11 @@ import React from 'react';
 import Card from '../Card/Card.js';
 
 const CardContainer = ({ data }) => {
-  console.log(data);
   return (
-    <div className='card-container'>
-      {/* Individual Phonics cards (click on for sound, hover draws attention */}
-      <Card text={data.s.text} image={data.s.image} sound={data.s.sound} examples={data.s.examples} />
+    <div className='container flex flex-wrap justify-between p-4 border border-black'>
+      {data.map((phonic, index) => {
+        return <Card key={index} text={phonic.text} image={phonic.image} sound={phonic.sound} examples={phonic.examples} />;
+      })}
     </div>
   );
 };

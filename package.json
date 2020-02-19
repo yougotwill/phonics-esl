@@ -1,5 +1,5 @@
 {
-  "name": "react-starter",
+  "name": "phonics-esl",
   "version": "0.1.0",
   "private": true,
   "author": "William Grant <yougotwill94@gmail.com> (https://yougotwill@github.io)",
@@ -10,6 +10,9 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.4.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^1.2.0"
   },
   "scripts": {
     "tailwind:css": "tailwind build src/styles/tailwind.css -c tailwind.config.js -o src/styles/index.css",
@@ -32,8 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "tailwindcss": "^1.2.0"
   }
 }
