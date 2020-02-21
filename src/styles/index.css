@@ -13263,13 +13263,13 @@ video {
   visibility: hidden;
 }
 
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
 .tooltip .tooltip-text p {
   background: black;
   color: white;
-}
-
-.tooltip:hover .tooltip-text {
-  visibility: visible;
 }
 
 .tooltip .tooltip-text .tooltip-triangle {
