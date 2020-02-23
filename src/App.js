@@ -8,8 +8,20 @@ import Modal from './components/Modal/Modal.js';
 
 const App = (props) => {
   const audioElement = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(false);
   const [showModal, setShowModal] = useState(false);
 
+  const onPlaySound = (sound) => {
+    if (!audioElement.current.paused) {
+      audioElement.current.pause();
+      setIsPlaying(false);
+    } else {
+      setIsPlaying(sound);
+      audioElement.current.src = sound;
+      audioElement.current.currentTime = 0;
+      audioElement.current.play();
+    }
+  };
   const toggleModal = (event) => {
     event.stopPropagation();
     setShowModal(!showModal);
@@ -23,14 +35,15 @@ const App = (props) => {
       {/* Search bar */}
       <CardContainer
         data={phonics}
-        audioElement={audioElement}
-        handleModal={toggleModal} />
+        isPlaying={isPlaying}
+        handlePlaySound={onPlaySound}
+        handleModal={toggleModal}
+      />
       <Footer />
-      <audio ref={audioElement} />
-      { showModal
+      <audio ref={audioElement} onEnded={() => { setIsPlaying(false); }} />
+      {showModal
         ? <Modal handleContents={(e) => { toggleModal(); }} onMouseLeave={(e) => { toggleModal(); }} />
-        : null
-      }
+        : null}
     </div>
   );
 };
