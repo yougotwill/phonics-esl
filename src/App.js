@@ -10,6 +10,7 @@ const App = (props) => {
   const audioElement = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [showModal, setShowModal] = useState(false);
+  const [currentPhonic, setCurrentPhonic] = useState();
 
   const onPlaySound = (sound) => {
     if (!audioElement.current.paused) {
@@ -25,7 +26,7 @@ const App = (props) => {
   const toggleModal = (event) => {
     event.stopPropagation();
     setShowModal(!showModal);
-    console.log('opened modal');
+    console.log('modal', showModal);
   };
 
   return (
@@ -38,11 +39,12 @@ const App = (props) => {
         isPlaying={isPlaying}
         handlePlaySound={onPlaySound}
         handleModal={toggleModal}
+        handleSetPhonic={setCurrentPhonic}
       />
       <Footer />
       <audio ref={audioElement} onEnded={() => { setIsPlaying(false); }} />
       {showModal
-        ? <Modal handleContents={(e) => { toggleModal(); }} onMouseLeave={(e) => { toggleModal(); }} />
+        ? <Modal handleToggleModal={toggleModal} phonic={currentPhonic} />
         : null}
     </div>
   );

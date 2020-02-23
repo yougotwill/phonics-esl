@@ -76,3 +76,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 - [Jolly Phonics Sounds](https://www.jollylearning.co.uk/resource-bank/learn-the-letter-sounds/)
 - [Jolly Phonics Gestures](https://www.jollylearning.co.uk/resource-bank/jolly-phonics-actions/)
 - [Modal with tailwindcss](https://codeburst.io/creating-a-modal-dialog-with-tailwind-css-42722c9aea4f)
+- [Modal closing behaviour](https://stackoverflow.com/questions/37573608/how-to-make-modal-close-on-click-outside/37573735)

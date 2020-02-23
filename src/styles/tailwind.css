@@ -14,14 +14,14 @@
 }
 
 .tooltip .tooltip-text div {
-  background: black;
+  background: rgba(0, 0, 0, 0.8);
   color: white;
 }
 
 .tooltip .tooltip-text .tooltip-triangle {
   height: 0;
   width: 0;
-  border-top: 12px solid black;
+  border-top: 12px solid rgba(0, 0, 0, 0.8);
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
 }

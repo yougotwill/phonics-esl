@@ -2,185 +2,215 @@ const phonics = [
   // Group 1
   {
     'text': 's',
-    'image': 'resources/images/s.jpg',
+    'gestureImage': 'resources/images/gestures/s.png',
+    'gestureText': 'Weave your hand in an s shape, like a snake, and say ssssss.',
     'sound': 'resources/sounds/group1/s.mp3',
     'examples': ['snake', 'nest', 'grass']
   },
   {
     'text': 'a',
-    'image': 'resources/images/a.jpg',
+    'gestureImage': 'resources/images/gestures/a.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group1/a.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 't',
-    'image': 'resources/images/t.jpg',
+    'gestureImage': 'resources/images/gestures/t.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group1/t.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'i',
-    'image': 'resources/images/i.jpg',
+    'gestureImage': 'resources/images/gestures/i.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group1/i.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'p',
-    'image': 'resources/images/p.jpg',
+    'gestureImage': 'resources/images/gestures/p.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group1/p.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'n',
-    'image': 'resources/images/n.jpg',
+    'gestureImage': 'resources/images/gestures/n.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group1/n.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   // Group 2
   {
     'text': 'c k',
-    'image': 'resources/images/ck.jpg',
+    'gestureImage': 'resources/images/gestures/ck.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group2/ck.mp3',
     'examples': ['snake', 'nest', 'grass']
   },
   {
     'text': 'e',
-    'image': 'resources/images/e.jpg',
+    'gestureImage': 'resources/images/gestures/e.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group2/e.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'h',
-    'image': 'resources/images/h.jpg',
+    'gestureImage': 'resources/images/gestures/h.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group2/h.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'r',
-    'image': 'resources/images/r.jpg',
+    'gestureImage': 'resources/images/gestures/r.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group2/r.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'm',
-    'image': 'resources/images/m.jpg',
+    'gestureImage': 'resources/images/gestures/m.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group2/m.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'd',
-    'image': 'resources/images/d.jpg',
+    'gestureImage': 'resources/images/gestures/d.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group2/d.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   // Group 3
   {
     'text': 'g',
-    'image': 'resources/images/g.jpg',
+    'gestureImage': 'resources/images/gestures/g.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group3/g.mp3',
     'examples': ['snake', 'nest', 'grass']
   },
   {
     'text': 'o',
-    'image': 'resources/images/o.jpg',
+    'gestureImage': 'resources/images/gestures/o.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group3/o.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'u',
-    'image': 'resources/images/u.jpg',
+    'gestureImage': 'resources/images/gestures/u.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group3/u.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'l',
-    'image': 'resources/images/l.jpg',
+    'gestureImage': 'resources/images/gestures/l.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group3/l.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'f',
-    'image': 'resources/images/f.jpg',
+    'gestureImage': 'resources/images/gestures/f.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group3/f.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'b',
-    'image': 'resources/images/b.jpg',
+    'gestureImage': 'resources/images/gestures/b.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group3/b.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   // Group 4
   {
     'text': 'ai',
-    'image': 'resources/images/ai.jpg',
+    'gestureImage': 'resources/images/gestures/ai.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group4/ai.mp3',
     'examples': ['snake', 'nest', 'grass']
   },
   {
     'text': 'j',
-    'image': 'resources/images/j.jpg',
+    'gestureImage': 'resources/images/gestures/j.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group4/j.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'oa',
-    'image': 'resources/images/oa.jpg',
+    'gestureImage': 'resources/images/gestures/oa.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group4/oa.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'ie',
-    'image': 'resources/images/ie.jpg',
+    'gestureImage': 'resources/images/gestures/ie.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group4/ie.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'ee',
-    'image': 'resources/images/ee.jpg',
+    'gestureImage': 'resources/images/gestures/ee.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group4/ee.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'or',
-    'image': 'resources/images/or.jpg',
+    'gestureImage': 'resources/images/gestures/or.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group4/or.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   // Group 5
   {
     'text': 'z',
-    'image': 'resources/images/z.jpg',
+    'gestureImage': 'resources/images/gestures/z.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group5/z.mp3',
     'examples': ['snake', 'nest', 'grass']
   },
   {
     'text': 'w',
-    'image': 'resources/images/w.jpg',
+    'gestureImage': 'resources/images/gestures/w.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group5/w.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'ng',
-    'image': 'resources/images/ng.jpg',
+    'gestureImage': 'resources/images/gestures/ng.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group5/ng.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'v',
-    'image': 'resources/images/v.jpg',
+    'gestureImage': 'resources/images/gestures/v.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group5/v.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'oo',
-    'image': 'resources/images/oo.jpg',
+    'gestureImage': 'resources/images/gestures/oo.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group5/book.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'oo',
-    'image': 'resources/images/oo2.jpg',
+    'gestureImage': 'resources/images/gestures/oo2.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group5/moon.mp3',
     'examples': ['ant', 'ankle', 'cat'],
     'secondary': true
@@ -188,37 +218,43 @@ const phonics = [
   // Group 6
   {
     'text': 'y',
-    'image': 'resources/images/y.jpg',
+    'gestureImage': 'resources/images/gestures/y.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group6/y.mp3',
     'examples': ['snake', 'nest', 'grass']
   },
   {
     'text': 'x',
-    'image': 'resources/images/x.jpg',
+    'gestureImage': 'resources/images/gestures/x.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group6/x.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'ch',
-    'image': 'resources/images/ch.jpg',
+    'gestureImage': 'resources/images/gestures/ch.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group6/ch.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'sh',
-    'image': 'resources/images/sh.jpg',
+    'gestureImage': 'resources/images/gestures/sh.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group6/sh.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'th',
-    'image': 'resources/images/th.jpg',
+    'gestureImage': 'resources/images/gestures/th.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group6/this.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'th',
-    'image': 'resources/images/th2.jpg',
+    'gestureImage': 'resources/images/gestures/th2.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group6/three.mp3',
     'examples': ['ant', 'ankle', 'cat'],
     'secondary': true
@@ -226,37 +262,43 @@ const phonics = [
   // Group 7
   {
     'text': 'qu',
-    'image': 'resources/images/qu.jpg',
+    'gestureImage': 'resources/images/gestures/qu.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group7/qu.mp3',
     'examples': ['snake', 'nest', 'grass']
   },
   {
     'text': 'ou',
-    'image': 'resources/images/ou.jpg',
+    'gestureImage': 'resources/images/gestures/ou.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group7/ou.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'oi',
-    'image': 'resources/images/oi.jpg',
+    'gestureImage': 'resources/images/gestures/oi.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group7/oi.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'ue',
-    'image': 'resources/images/ue.jpg',
+    'gestureImage': 'resources/images/gestures/ue.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group7/ue.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'er',
-    'image': 'resources/images/er.jpg',
+    'gestureImage': 'resources/images/gestures/er.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group7/er.mp3',
     'examples': ['ant', 'ankle', 'cat']
   },
   {
     'text': 'ar',
-    'image': 'resources/images/ar.jpg',
+    'gestureImage': 'resources/images/gestures/ar.png',
+    'gestureText': '',
     'sound': 'resources/sounds/group7/ar.mp3',
     'examples': ['ant', 'ankle', 'cat']
   }
