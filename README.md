@@ -73,4 +73,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 - [Hover tooltips](https://github.com/Cosbgn/tailwindcss-tooltips/blob/master/README.md)
 - [CSS Triangle for tooltip](https://dev.to/adriantwarog/learn-how-to-make-a-triangle-in-css-once-and-for-all-2pfe)
 - [Referencing HTML audio element](https://reactjs.org/docs/hooks-reference.html#useref)
-
+- [Jolly Phonics Sounds](https://www.jollylearning.co.uk/resource-bank/learn-the-letter-sounds/)
+- [Jolly Phonics Gestures](https://www.jollylearning.co.uk/resource-bank/jolly-phonics-actions/)
+- [Modal with tailwindcss](https://codeburst.io/creating-a-modal-dialog-with-tailwind-css-42722c9aea4f)
