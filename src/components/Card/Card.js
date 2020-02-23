@@ -1,5 +1,7 @@
 import React from 'react';
 
+import humanReadableList from '../../utils/human-readable-list.js';
+
 import infoPng from '../../resources/icons/info.png';
 
 const Card = ({
@@ -14,12 +16,6 @@ const Card = ({
   handleModal,
   handleSetPhonic
 }) => {
-  const examplesList = examples.map((item, index) => {
-    if (index < examples.length - 1) {
-      item += ', ';
-    }
-    return item;
-  });
   const onCardClick = (event) => {
     handleSetPhonic({
       text,
@@ -36,7 +32,7 @@ const Card = ({
         <h3 className={secondary ? 'text-2xl font-bold select-none' : 'text-2xl select-none'}>{isPlaying === sound ? <span className='text-4xl'>◼</span> : text}</h3>
         <div className='absolute text-center tooltip-text' onClick={(event) => { onCardClick(event); }}>
           <div className='py-2 px-auto rounded-full'>
-            <p>{examplesList}<img className='w-6 h-6 mb-1 ml-2 inline' src={infoPng} alt='info' /></p>
+            <p>{humanReadableList(examples)}<img className='w-6 h-6 mb-1 ml-2 inline' src={infoPng} alt='info' /></p>
           </div>
           <p className='mx-auto tooltip-triangle' />
         </div>

@@ -1,16 +1,12 @@
 import React from 'react';
 
+import humanReadableList from '../../utils/human-readable-list.js';
+
 const Modal = ({ handleToggleModal, phonic }) => {
   const handleModal = (event) => {
     event.preventDefault();
     event.stopPropagation();
   };
-  const examplesList = phonic.examples.map((item, index) => {
-    if (index < phonic.examples.length - 1) {
-      item += ', ';
-    }
-    return item;
-  });
   return (
     <div className='fixed w-full h-100 inset-0 z-50 overflow-hidden flex justify-center items-center modal' onClick={handleToggleModal}>
       <div className='shadow-lg w-11/12 md:max-w-2xl mx-auto rounded z-50 overflow-y-auto absolute top-1/6 modal-container' onClick={(event) => { handleModal(event); }}>
@@ -24,7 +20,7 @@ const Modal = ({ handleToggleModal, phonic }) => {
           <p>{phonic.gestureText}</p>
           <img className='w-1/3 mx-auto py-4' src={phonic.gestureImage} alt='gesture' />
           <h3 className='text-5xl'>Examples</h3>
-          <p>{examplesList}</p>
+          <p>{humanReadableList(phonic.examples)}</p>
           <audio className='w-1/2 mx-auto py-8' src={phonic.sound} controls>
             Your browser does not support the <code>audio</code> element.
           </audio>
