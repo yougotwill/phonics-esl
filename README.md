@@ -72,3 +72,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 - [React + Tailwind Setup](https://medium.com/quick-code/tailwind-react-typescript-a0317155e5ee)
 - [Hover tooltips](https://github.com/Cosbgn/tailwindcss-tooltips/blob/master/README.md)
 - [CSS Triangle for tooltip](https://dev.to/adriantwarog/learn-how-to-make-a-triangle-in-css-once-and-for-all-2pfe)
+- [Referencing HTML audio element](https://reactjs.org/docs/hooks-reference.html#useref)
+- [Jolly Phonics Sounds](https://www.jollylearning.co.uk/resource-bank/learn-the-letter-sounds/)
+- [Jolly Phonics Gestures](https://www.jollylearning.co.uk/resource-bank/jolly-phonics-actions/)
+- [Modal with tailwindcss](https://codeburst.io/creating-a-modal-dialog-with-tailwind-css-42722c9aea4f)
+- [Modal closing behaviour](https://stackoverflow.com/questions/37573608/how-to-make-modal-close-on-click-outside/37573735)

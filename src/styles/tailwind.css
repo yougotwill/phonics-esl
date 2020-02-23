@@ -4,23 +4,34 @@
 
 .tooltip .tooltip-text {
   visibility: hidden;
+  top: -64px;
+  left: -70px;
+  right: -70px;
 }
 
 .tooltip:hover .tooltip-text {
   visibility: visible;
 }
 
-.tooltip .tooltip-text p {
-  background: black;
+.tooltip .tooltip-text div {
+  background: rgba(0, 0, 0, 0.8);
   color: white;
 }
 
 .tooltip .tooltip-text .tooltip-triangle {
   height: 0;
   width: 0;
-  border-top: 12px solid black;
+  border-top: 12px solid rgba(0, 0, 0, 0.8);
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
+}
+
+.modal {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.modal .modal-container {
+  background: white;
 }
 
 .dark {
@@ -33,11 +44,16 @@
   color: black;
 }
 
-.dark .tooltip .tooltip-text p {
+.dark .tooltip .tooltip-text div {
   background: white;
   color: black;
 }
 
 .dark .tooltip .tooltip-text .tooltip-triangle {
   border-top: 12px solid white;
+}
+
+.dark .modal .modal-container {
+  background: #1a202c; /* bg-gray-900 */
+  color: white;
 }
