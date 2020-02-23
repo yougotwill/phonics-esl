@@ -13266,7 +13266,7 @@ video {
   right: -70px;
 }
 
-.tooltip:hover .tooltip-text, .tooltip:focus .tooltip-text {
+.tooltip:hover .tooltip-text {
   visibility: visible;
 }
 
