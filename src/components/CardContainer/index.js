@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Card from '../Card/Card.js';
+import Card from '../Card';
 
 const CardContainer = ({ data, isPlaying, handlePlaySound, handleModal, handleSetPhonic }) => {
   return (

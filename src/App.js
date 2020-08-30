@@ -1,16 +1,18 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import phonics from './resources/phonics.js';
 
-import Hero from './components/Hero/Hero.js';
-import CardContainer from './components/CardContainer/CardContainer.js';
-import Footer from './components/Footer/Footer.js';
-import Modal from './components/Modal/Modal.js';
+import Hero from './components/Hero';
+import SearchBar from './components/SearchBar';
+import CardContainer from './components/CardContainer';
+import Footer from './components/Footer';
+import Modal from './components/Modal';
 
 const App = (props) => {
   const audioElement = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [currentPhonic, setCurrentPhonic] = useState();
+  const [theme, setTheme] = useState('');
 
   const onPlaySound = (sound) => {
     if (!audioElement.current.paused) {
@@ -29,11 +31,24 @@ const App = (props) => {
     console.log('modal', showModal);
   };
 
+  const updateTheme = (value) => {
+    document.querySelector('body').className = value;
+    localStorage.setItem('theme', value);
+    setTheme(value);
+  }
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    const storedTheme = localStorage.getItem('theme');
+    if (storedTheme !== '') {
+      updateTheme(storedTheme);
+    }
+  }, []);
+
   return (
     <div className='container max-w-screen-md mx-auto text-md lg:text-xl '>
-      {/* Navbar with theme toggle */}
       <Hero />
-      {/* Search bar */}
+      <SearchBar theme={theme} updateTheme={updateTheme} />
       <CardContainer
         data={phonics}
         isPlaying={isPlaying}
