@@ -44,7 +44,7 @@ const phonics = [
   },
   // Group 2
   {
-    'text': 'c k',
+    'text': 'ck',
     'gestureImage': 'resources/images/gestures/ck.png',
     'gestureText': 'Raise hands and snap fingers as if playing castanets and say ck, ck, ck.',
     'sound': 'resources/sounds/group2/ck.mp3',

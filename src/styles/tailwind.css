@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Dark theme */
+
+.dark {
+  background: #1a202c; /* bg-gray-900 */
+  color: white;
+}
+
+.dark .card {
+  background: #ed8936; /* bg-orange-500 */
+  color: black;
+}
+
+/* Tooltip */
+
 .tooltip .tooltip-text {
   visibility: hidden;
   top: -64px;
@@ -26,24 +40,6 @@
   border-right: 12px solid transparent;
 }
 
-.modal {
-  background: rgba(0, 0, 0, 0.7);
-}
-
-.modal .modal-container {
-  background: white;
-}
-
-.dark {
-  background: #1a202c; /* bg-gray-900 */
-  color: white;
-}
-
-.dark .card {
-  background: #ed8936; /* bg-orange-500 */
-  color: black;
-}
-
 .dark .tooltip .tooltip-text div {
   background: white;
   color: black;
@@ -53,7 +49,23 @@
   border-top: 12px solid white;
 }
 
+/* Modal */
+
+.modal {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.modal .modal-container {
+  background: white;
+}
+
 .dark .modal .modal-container {
   background: #1a202c; /* bg-gray-900 */
   color: white;
+}
+
+/* Searchbar */
+
+.dark .searchbar input {
+  background: #1a202c; /* bg-gray-900 */
 }

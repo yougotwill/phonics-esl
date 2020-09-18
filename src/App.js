@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import phonics from './resources/phonics.js';
 
 import Hero from './components/Hero';
-import SearchBar from './components/SearchBar';
 import CardContainer from './components/CardContainer';
 import Footer from './components/Footer';
 import Modal from './components/Modal';
@@ -48,8 +47,9 @@ const App = (props) => {
   return (
     <div className='container max-w-screen-md mx-auto text-md lg:text-xl '>
       <Hero />
-      <SearchBar theme={theme} updateTheme={updateTheme} />
       <CardContainer
+        theme={theme}
+        updateTheme={updateTheme}
         data={phonics}
         isPlaying={isPlaying}
         handlePlaySound={onPlaySound}
