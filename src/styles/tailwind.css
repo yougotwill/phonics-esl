@@ -14,6 +14,10 @@
   color: black;
 }
 
+.dark input {
+  background: #1a202c; /* bg-gray-900 */
+}
+
 /* Tooltip */
 
 .tooltip .tooltip-text {
@@ -62,10 +66,4 @@
 .dark .modal .modal-container {
   background: #1a202c; /* bg-gray-900 */
   color: white;
-}
-
-/* Searchbar */
-
-.dark input {
-  background: #1a202c; /* bg-gray-900 */
 }
