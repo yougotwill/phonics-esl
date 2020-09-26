@@ -22223,6 +22223,10 @@ video {
           animation: bounce 1s infinite;
 }
 
+body {
+  height: 100%;
+}
+
 /* Dark theme */
 
 .dark {
@@ -22233,6 +22237,10 @@ video {
 .dark .card {
   background: #ed8936; /* bg-orange-500 */
   color: black;
+}
+
+.dark input {
+  background: #1a202c; /* bg-gray-900 */
 }
 
 /* Tooltip */
@@ -22283,12 +22291,6 @@ video {
 .dark .modal .modal-container {
   background: #1a202c; /* bg-gray-900 */
   color: white;
-}
-
-/* Searchbar */
-
-.dark input {
-  background: #1a202c; /* bg-gray-900 */
 }
 
 @media (min-width: 640px) {

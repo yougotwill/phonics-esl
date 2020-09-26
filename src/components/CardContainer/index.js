@@ -12,6 +12,7 @@ const CardContainer = ({data, isPlaying, handlePlaySound, handleModal, handleSet
     : data.filter((phonic) => {
     return phonic.text.includes(searchTerm.toLowerCase());
   });
+
   const cards = results.map((phonic, index) => {
     return (
       <Card
@@ -32,9 +33,9 @@ const CardContainer = ({data, isPlaying, handlePlaySound, handleModal, handleSet
 
   return (
     <div>
-      <input className='w-full my-2 mr-6 p-2 border border-black' type='search' placeholder='Search sounds' value={searchTerm} onChange={searchHandler}></input>
-      <div className='container flex flex-wrap justify-between p-4 border border-black'>
-        {cards}
+      <input className='w-full my-2 mx-auto py-2 px-4 border border-black' type='search' placeholder='Search sounds' value={searchTerm} onChange={searchHandler}></input>
+      <div className={'container flex flex-wrap py-4 px-auto border border-black ' + (cards.length < 41 ? 'justify-start' : 'justify-between')}>
+        {cards.length > 0 ? cards : <p className='m-auto'>No results</p>}
       </div>
     </div>
   );

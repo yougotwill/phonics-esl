@@ -21,7 +21,7 @@ const Modal = ({ handleToggleModal, phonic }) => {
           <img className='w-1/3 mx-auto py-4' src={phonic.gestureImage} alt='gesture' />
           <h3 className='text-5xl'>Examples</h3>
           <p>{humanReadableList(phonic.examples)}</p>
-          <audio className='w-1/2 mx-auto py-8' src={phonic.sound} controls>
+          <audio className='w-1/2 mx-auto my-8' src={phonic.sound} controls>
             Your browser does not support the <code>audio</code> element.
           </audio>
         </div>

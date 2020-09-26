@@ -45,7 +45,7 @@ const App = (props) => {
   }, []);
 
   return (
-    <div className='container max-w-screen-md mx-auto text-md lg:text-xl '>
+    <div className='container text-center my-0 mx-auto text-md lg:text-xl md:max-w-screen-sm lg:max-w-screen-md'>
       <Hero theme={theme} updateTheme={updateTheme} />
       <CardContainer
         data={phonics}
