@@ -19,19 +19,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Mobile
 
-<img src="/Users/neon/Documents/SourceTree/phonics-esl/assets/mobile-light.jpg" alt="mobile-light" style="zoom:25%;" />
+<img src="assets/mobile-light.jpg" alt="mobile-light" style="zoom:25%;" />
 
 
 
-<img src="/Users/neon/Documents/SourceTree/phonics-esl/assets/mobile-dark.jpg" alt="mobile-light" style="zoom:25%;" />
+<img src="assets/mobile-dark.jpg" alt="mobile-light" style="zoom:25%;" />
 
 ### Desktop
 
-<img src="/Users/neon/Documents/SourceTree/phonics-esl/assets/desktop-light.png" alt="desktop-light" style="zoom:50%;" />
+<img src="assets/desktop-light.png" alt="desktop-light" style="zoom:50%;" />
 
 
 
-<img src="/Users/neon/Documents/SourceTree/phonics-esl/assets/desktop-dark.png" alt="desktop-light" style="zoom:50%;" />
+<img src="assets/desktop-dark.png" alt="desktop-light" style="zoom:50%;" />
 
 ## Development
 
