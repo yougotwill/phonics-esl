@@ -19,11 +19,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Mobile
 
-<img src="assets/mobile-light.jpg" alt="mobile-light" style="zoom:25%;" />
+<img src="assets/mobile-light.jpg" alt="mobile-light" width="207" height="368" />
 
 
 
-<img src="assets/mobile-dark.jpg" alt="mobile-light" style="zoom:25%;" />
+<img src="assets/mobile-dark.jpg" alt="mobile-light" width="207" height="368" />
 
 ### Desktop
 
