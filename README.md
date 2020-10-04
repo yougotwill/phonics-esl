@@ -36,7 +36,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Development
 
 - Did you notice a bug? Please report it [here](https://github.com/yougotwill/phonics-esl/issues/new?labels=bug&template=bug_report.md)
-- Want to request a feature? Please let me know [here](https://github.com/yougotwill/motii/issues/new?labels=enhancement&template=feature_request.md')
+- Want to request a feature? Please let me know [here](https://github.com/yougotwill/phonics-esl/issues/new?labels=enhancement&template=feature_request.md')
 
 ## References
 
