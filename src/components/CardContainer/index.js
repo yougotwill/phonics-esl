@@ -34,8 +34,8 @@ const CardContainer = ({data, isPlaying, handlePlaySound, handleModal, handleSet
   return (
     <div>
       <input className='w-full my-2 mx-auto py-2 px-4 border border-black' type='search' placeholder='Search sounds' value={searchTerm} onChange={searchHandler}></input>
-      <div className={'container flex flex-wrap py-4 px-auto border border-black ' + (cards.length < 41 ? 'justify-start' : 'justify-between')}>
-        {cards.length > 0 ? cards : <p className='m-auto'>No results</p>}
+      <div className={'container flex flex-wrap py-4 px-auto border border-black ' + (cards.length < 41 ? 'justify-start' : 'justify-between')} tabindex="0">
+        {cards.length > 0 ? cards : <p className='m-auto' tabindex="0">No results</p>}
       </div>
     </div>
   );

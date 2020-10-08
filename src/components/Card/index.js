@@ -24,10 +24,17 @@ const Card = ({
     });
     handleModal(event);
   };
+  const cardClass = () => {
+    let classString = 'w-20 h-20 my-2 mx-2 relative flex justify-center items-center text-center bg-orange-200 border-2 border-orange-300 card';
+    if (isPlaying !== sound) {
+      classString += ' rounded-full';
+    }
+    return classString;
+  };
   return (
     <div className='tooltip'>
-      <div className='my-2 mx-2 w-20 h-20 relative flex justify-center items-center text-center bg-orange-200 rounded-full border-2 border-orange-300 card' onClick={() => { handlePlaySound(sound); }}>
-        <h3 className={secondary ? 'text-2xl font-bold select-none' : 'text-2xl select-none'}>{isPlaying === sound ? <span className='text-4xl'>◼</span> : text}</h3>
+      <div className={cardClass()} onClick={() => { handlePlaySound(sound); }} tabindex="0">
+        <h3 className={secondary ? 'text-2xl select-none font-bold' : 'text-2xl select-none'}>{text}</h3>
         <div className='absolute text-center tooltip-text' onClick={(event) => { onCardClick(event); }}>
           <div className='py-2 px-auto rounded-full'>
             <p>
