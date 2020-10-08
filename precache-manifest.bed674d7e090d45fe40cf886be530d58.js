@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc7310fc25d9e6e004e20fe0eb853bcb",
+    "revision": "1c9d6ba5f7d4faf6042310bed2f12c51",
     "url": "/phonics-esl/index.html"
   },
   {
-    "revision": "ec59c223d107f1366c50",
+    "revision": "8327d5b56151d7665d05",
     "url": "/phonics-esl/static/css/main.b52e5708.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/phonics-esl/static/js/2.402b215a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ec59c223d107f1366c50",
-    "url": "/phonics-esl/static/js/main.58999124.chunk.js"
+    "revision": "8327d5b56151d7665d05",
+    "url": "/phonics-esl/static/js/main.89dc2835.chunk.js"
   },
   {
     "revision": "2f3f813c616288d9dedb",
