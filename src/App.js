@@ -40,17 +40,15 @@ const App = () => {
   };
 
   const updateTheme = (value) => {
-    document.querySelector('body').className = value;
     localStorage.setItem('theme', value);
     setTheme(value);
+    document.querySelector('body').className = value;
   }
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    const storedTheme = localStorage.getItem('theme');
-    if (storedTheme !== '') {
-      updateTheme(storedTheme);
-    }
+    const storedTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : '';
+    updateTheme(storedTheme);
   }, []);
 
   return (
