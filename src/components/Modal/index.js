@@ -1,5 +1,3 @@
-import React from 'react';
-
 import humanReadableList from '../../utils/human-readable-list.js';
 
 const Modal = ({ handleToggleModal, phonic }) => {

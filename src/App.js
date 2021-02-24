@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import phonics from './resources/phonics.js';
 
 import Hero from './components/Hero';
@@ -6,7 +6,7 @@ import CardContainer from './components/CardContainer';
 import Footer from './components/Footer';
 import Modal from './components/Modal';
 
-const App = (props) => {
+const App = () => {
   const audioElement = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [showModal, setShowModal] = useState(false);
@@ -21,7 +21,16 @@ const App = (props) => {
       setIsPlaying(sound);
       audioElement.current.src = sound;
       audioElement.current.currentTime = 0;
-      audioElement.current.play();
+      const audioPromise = audioElement.current.play();
+      if (audioPromise !== undefined) {;
+        audioPromise
+        .then((result) => console.log('audio success: ', result))
+        .catch(err => {
+          console.log('audio error: ', err);
+          audioElement.current.pause();
+          setIsPlaying(false);
+        });
+      }
     }
   };
   const toggleModal = (event) => {

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import humanReadableList from '../../utils/human-readable-list.js';
 
 const Card = ({
@@ -33,7 +31,7 @@ const Card = ({
   };
   return (
     <div className='tooltip'>
-      <div className={cardClass()} onClick={() => { handlePlaySound(sound); }} tabindex="0">
+      <div className={cardClass()} onClick={() => { handlePlaySound(sound); }} tabIndex="0">
         <h3 className={secondary ? 'text-2xl select-none font-bold' : 'text-2xl select-none'}>{text}</h3>
         <div className='absolute text-center tooltip-text' onClick={(event) => { onCardClick(event); }}>
           <div className='py-2 px-auto rounded-full'>
